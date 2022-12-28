@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EEC65A43295ABCE5008AEEA2 /* ListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC65A42295ABCE5008AEEA2 /* ListCellViewModel.swift */; };
+		EEC65A45295ABD28008AEEA2 /* ViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC65A44295ABD28008AEEA2 /* ViewControllerViewModel.swift */; };
 		FE52B370235997EA00EDD4AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52B36F235997EA00EDD4AB /* AppDelegate.swift */; };
 		FE52B372235997EA00EDD4AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52B371235997EA00EDD4AB /* SceneDelegate.swift */; };
 		FE52B374235997EA00EDD4AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52B373235997EA00EDD4AB /* ViewController.swift */; };
@@ -49,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EEC65A42295ABCE5008AEEA2 /* ListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCellViewModel.swift; sourceTree = "<group>"; };
+		EEC65A44295ABD28008AEEA2 /* ViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerViewModel.swift; sourceTree = "<group>"; };
 		FE52B36C235997EA00EDD4AB /* PracticeMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE52B36F235997EA00EDD4AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE52B371235997EA00EDD4AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +108,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EEC65A41295ABCBF008AEEA2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EEC65A42295ABCE5008AEEA2 /* ListCellViewModel.swift */,
+				EEC65A44295ABD28008AEEA2 /* ViewControllerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		FE52B363235997EA00EDD4AB = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +140,7 @@
 		FE52B36E235997EA00EDD4AB /* PracticeMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				EEC65A41295ABCBF008AEEA2 /* ViewModel */,
 				FE52B3A423599A4A00EDD4AB /* Tools */,
 				FE52B3A323599A3600EDD4AB /* Controller */,
 				FE52B3A223599A2E00EDD4AB /* Model */,
@@ -357,12 +371,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC65A43295ABCE5008AEEA2 /* ListCellViewModel.swift in Sources */,
 				FE52B3B823599D4E00EDD4AB /* HTTPStatusCodes.swift in Sources */,
 				FE52B3B523599D4E00EDD4AB /* RequestCommunicator.swift in Sources */,
 				FE52B3BB23599D4E00EDD4AB /* Streams.swift in Sources */,
 				FE52B3BF23599D7200EDD4AB /* MusicHandler.swift in Sources */,
 				FE52B3C32359A19100EDD4AB /* Extension+UIViewController.swift in Sources */,
 				FE52B3B923599D4E00EDD4AB /* Download.swift in Sources */,
+				EEC65A45295ABD28008AEEA2 /* ViewControllerViewModel.swift in Sources */,
 				FE52B3B723599D4E00EDD4AB /* CommunicatorResponse.swift in Sources */,
 				FE52B3B423599D4E00EDD4AB /* RequestBaseType.swift in Sources */,
 				FE52B374235997EA00EDD4AB /* ViewController.swift in Sources */,
